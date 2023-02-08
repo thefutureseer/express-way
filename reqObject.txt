@@ -1,0 +1,99 @@
+req object Properties and Mehods
+
+The req object is a representation of an incoming 
+HTTP request in an Express application. It contains 
+information about the request, such as the URL, headers, 
+query parameters, and any data sent in the request body.
+
+Here is a complete list of properties and methods available 
+on the req object in an Express application:
+
+This is not an exhaustive list, but covers the most commonly 
+used properties and methods. For more information on the req 
+object and the properties and methods available on it, 
+you can refer to the Express.js documentation.
+
+PROPERTIES (accessed using dot notation):
+
+req.baseUrl: 
+the base URL for the request, if the application is 
+mounted at a path.
+
+req.body: 
+an object containing the request body parsed from 
+JSON, URL encoded, or any other body parser middleware added 
+to the application.
+
+req.cookies: 
+an object containing the cookies sent in the request.
+
+req.fresh: 
+a Boolean indicating whether the request is "fresh", 
+meaning it has not been modified since the client last 
+requested it.
+
+req.hostname: 
+the hostname of the request.
+
+req.ip: 
+the IP address of the client making the request.
+
+req.ips: 
+an array of IP addresses from the client making the request, 
+if the application is behind a proxy.
+
+req.method: 
+the HTTP method of the request (e.g., GET, POST, PUT, etc.).
+
+req.originalUrl: 
+the original URL of the request, including the query string.
+
+req.params: 
+an object containing the parameters from the URL path.
+
+req.path: 
+the path of the request URL, excluding the query string.
+
+req.protocol: 
+the protocol of the request (e.g., 'http' or 'https').
+
+req.query: 
+an object containing the query parameters from the URL.
+
+req.route: 
+the route object for the current request, if a matching route was found.
+
+req.secure: 
+a Boolean indicating whether the request was made over a 
+secure connection (e.g., HTTPS).
+
+req.signedCookies: 
+an object containing signed cookies sent in the request.
+
+req.xhr: 
+a Boolean indicating whether the request was made via an XMLHttpRequest (i.e., an AJAX request).
+
+
+METHODS (called using dot notation):
+
+req.accepts([types]): 
+returns the first accepted type in the specified array, or 
+false if no match is found.
+
+req.acceptsCharsets([charsets]): 
+returns the first accepted charset in the specified array, or 
+false if no match is found.
+
+req.acceptsEncodings([encodings]): 
+returns the first accepted encoding in the specified array, or 
+false if no match is found.
+
+req.acceptsLanguages([languages]): 
+returns the first accepted language in the specified array, or 
+false if no match is found.
+
+req.get(field): 
+returns the value of the specified header field.
+
+req.is(type): 
+returns true if the specified type is acceptable, otherwise false.
