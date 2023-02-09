@@ -117,21 +117,3 @@ Express allows you to mount middleware and routing functions at specific paths, 
 ##17
 Redirection: 
 Express provides a simple way to implement redirection in your application, which allows you to redirect users to different pages based on the status of their request.
-
-##18 (lil screwy)
-SSL and HTTPS support: 
-Express provides built-in support for SSL and HTTPS, making it easy to secure your application and protect sensitive data.
-I apologize for any confusion, but the statement "Express provides built-in support for SSL and HTTPS" is incorrect. 
-##### Express is a minimal and flexible web framework for Node.js,##### but 
-##### it does not provide built-in support for SSL or HTTPS.
-#####
-##### To secure your Express application and protect sensitive data 
-##### transmitted over the network, you will need to use a reverse ##### proxy, such as Nginx or Apache, that can handle SSL/TLS encryption 
-##### and decryption and serve your Express application over HTTPS.
-#####
-##### By using a reverse proxy, you can add SSL/TLS and HTTPS support to 
-##### your Express application, ensuring secure and encrypted 
-##### communication between the client and the server. To use a reverse 
-##### proxy, you'll need to obtain an SSL/TLS certificate from a trusted 
-##### certificate authority and configure the reverse proxy to use the 
-##### certificate.
