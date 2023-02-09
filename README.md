@@ -34,7 +34,7 @@ Express provides a middleware system that allows you to execute arbitrary code b
     A middleware that serves static files, such as images, stylesheets, and JavaScript files.
 
 -   Session:
-    Express.js does not have built-in session management, but it provides a way to use middleware to handle sessions. There are many third-party middleware available, such as express-session, that can be used to add session management to an Express application allowing you to store data across multiple requests from a single client.
+    Express.js does not have built-in session management, but it provides a way to use middleware to handle sessions. There are many third-party middleware available, such as *express-session* , that can be used to add session management to an Express application allowing you to store data across multiple requests from a single client.
 
 -   Error handler: 
     A middleware that provides custom error handling, allowing you to specify how your application should respond to errors.
@@ -60,27 +60,24 @@ Convenient HTTP utility methods for performing common tasks, such as sending JSO
 8. Third-party middleware
 The ability to use a wide variety of third-party middleware to extend the functionality of your Express application
 
-9. Session management
-Easy-to-use session management capabilities to store and retrieve user-specific data between requests.
-
-10. Query string parsing
+9. Query string parsing
 Automatic query string parsing to easily access query string parameters in routes.
 
-11. File uploads
+10. File uploads
 Support for handling file uploads, making it easy to receive and process files from clients.
 
-12. Security: 
+11. Security: 
 Express.js does not have built-in security features, but it provides support for security-related middleware like CORS (Cross-Origin Resource Sharing) for handling cross-domain requests and Helmet for setting security-related HTTP headers. Additionally, it provides features for body parsing and query string parsing, which can help prevent against certain types of attacks such as Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF). However, it is still important to implement appropriate security measures for your application.
 
-13. API development
+12. API development
 Express is a popular choice for building APIs, and provides several features that make it well-suited for API development, such as automatic JSON parsing, support for API versioning, and more.
 
-14. Routing with parameters
+13. Routing with parameters
 Supports dynamic routing, which allows you to include variables in your route paths. This makes it easy to create routes that can respond to requests with different parameters, such as an id of a specific resource.
 
-15. Mounting middleware and routing functions
+14. Mounting middleware and routing functions
 Ability to mount middleware and routing functions at specific paths for fine-grained control over the flow of the application.
 This can be useful for organizing your application into smaller, more manageable parts.
 
-16. Redirection
+15. Redirection
 Express provides a simple way to implement redirection in your application, which allows you to redirect users to different pages based on the status of their request.
