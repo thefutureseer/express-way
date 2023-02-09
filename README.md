@@ -1,9 +1,9 @@
 # Important things about express.js 
 express-way
 
-###  Whatever you read here and can understand is fine. 
-###  We can build on that later.
-####    -Dr Daniel Tannehill
+>  Whatever you read here and can understand is fine. 
+>  We can build on that later.
+>>  -Dr Daniel Tannehill
 
 ##1
 Routing: 
