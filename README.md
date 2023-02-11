@@ -7,25 +7,25 @@ _NOTE_:
 Express.js is not all middleware. It is a web application framework for Node.js that provides a set of features and functions for building web applications. One of the key features of Express.js is its support for middleware, which are functions that can be used to manipulate incoming requests and outgoing responses. However, Express.js also includes other features, such as support for routing, templating, error handling, serving static files, body parsing, session management, and more.
 
 1. Routing
-The ability to define and manage application routes, allowing you to map URLs to specific behavior in your application.
+:The ability to define and manage application routes, allowing you :to map URLs to specific behavior in your application.
 
 2. Middleware
-The ability to use middleware functions to manipulate incoming requests and outgoing responses in your application.
+:The ability to use middleware functions to manipulate incoming :requests and outgoing responses in your application.
 
 ## Middleware functions
 Express provides a middleware system that allows you to execute arbitrary code between the time a request is received and the time a response is sent. This allows you to implement common functionality, such as logging, authentication, and data validation, in a reusable and modular way.
 
 -   write your own:
-    You can also write your own custom middleware functions to meet the specific needs of your application.
+    :You can also write your own custom middleware functions to :meet the specific needs of your application.
 
 -   Body Parser: 
-    A middleware that parses the incoming request body and makes it available in the request object.
+    :A middleware that parses the incoming request body and makes :it available in the request object.
 
 -   Cookie Parser: 
-    A middleware that parses incoming cookies and makes them available in the request object.
+    :A middleware that parses incoming cookies and makes them :available in the request object.
 
 -   CORS (Cross-Origin Resource Sharing): 
-    A middleware that implements cross-origin resource sharing, which allows requests to be made to a server from a different origin.
+    :A middleware that implements cross-origin resource sharing, :which allows requests to be made to a server from a different :origin.
 
 -   Morgan: 
     A logging middleware that logs incoming requests and their response information.
