@@ -6,14 +6,8 @@
 _NOTE_:
 Express.js is not all middleware. It is a web application framework for Node.js that provides a set of features and functions for building web applications. One of the key features of Express.js is its support for middleware, which are functions that can be used to manipulate incoming requests and outgoing responses. However, Express.js also includes other features, such as support for routing, templating, error handling, serving static files, body parsing, session management, and more.
 
-1. Routing
-- The ability to define and manage application routes, allowing you to map URLs to specific behavior in your application.
-
-2. Middleware
-- The ability to use middleware functions to manipulate incoming requests and outgoing responses in your application.
-
-## Middleware functions
-Express provides a middleware system that allows you to execute arbitrary code between the time a request is received and the time a response is sent. This allows you to implement common functionality, such as logging, authentication, and data validation, in a reusable and modular way.
+## 1. Middleware functions
+Express provides a middleware system that allows you to execute arbitrary code between the time a request is received and the time a response is sent. This allows you to implement common functionality, such as logging, authentication, and data validation, in a reusable and modular way
 
 -   write your own
     - You can also write your own custom middleware functions to 
@@ -32,28 +26,31 @@ Express provides a middleware system that allows you to execute arbitrary code b
     - A logging middleware that logs incoming requests and their response information.
 
 -   Serve-Static: 
-    A middleware that serves static files, such as images, stylesheets, and JavaScript files.
+    - A middleware that serves static files, such as images,stylesheets, and JavaScript files.
 
 -   Session:
-    Express.js does not have built-in session management, but it provides a way to use middleware to handle sessions. There are many third-party middleware available, such as *express-session* , that can be used to add session management to an Express application allowing you to store data across multiple requests from a single client.
+    - Express.js does not have built-in session management, but it provides a way to use middleware to handle sessions. There are many third-party middleware available, such as *express-session* , that can be used to add session management to an Express application allowing you to store data across multiple requests from a single client.
 
 -   Error handler: 
-    A middleware that provides custom error handling, allowing you to specify how your application should respond to errors.
+    - A middleware that provides custom error handling, allowing you to specify how your application should respond to errors.
 
 -   Compression: 
-    A middleware that compresses outgoing responses to reduce the amount of data that needs to be transmitted over the network.
+    - A middleware that compresses outgoing responses to reduce the amount of data that needs to be transmitted over the network.
+
+2. Routing
+- The ability to define and manage application routes, allowing you to map URLs to specific behavior in your application.
 
 3. Templating engines: 
-Express provides support for using templating engines, which allow you to generate dynamic HTML content. This makes it easy to create views that can change based on the data available in your application.
+- Express provides support for using templating engines, which allow you to generate dynamic HTML content. This makes it easy to create views that can change based on the data available in your application.
 
 4. Templating
-The ability to render dynamic HTML pages using templating engines, such as EJS, Pug, or Handlebars.
+- The ability to render dynamic HTML pages using templating engines, such as EJS, Pug, or Handlebars.
 
 5. Error handling
-Built-in error handling mechanisms, such as handling 404 Not Found errors or 500 Internal Server Error responses, as well as the ability to define custom error handling middleware.
+- Built-in error handling mechanisms, such as handling 404 Not Found errors or 500 Internal Server Error responses, as well as the ability to define custom error handling middleware.
 
 6. Serving static files
-Built-in support for serving static files, such as images, CSS, and JavaScript files, from a specified directory.
+- Built-in support for serving static files, such as images, CSS, and JavaScript files, from a specified directory.
 
 7. HTTP utility methods
 Convenient HTTP utility methods for performing common tasks, such as sending JSON responses or redirecting users to another page.
