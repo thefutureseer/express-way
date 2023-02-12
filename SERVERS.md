@@ -8,9 +8,9 @@
   
 ## A server is basically 2 things:  
   
-1. computer system:  
+## 1. computer system:  
 A *server* computer system is a computer designed to provide resources and services to other computers or devices on a network. This can include file storage, data processing, and other services.  
-### Here are some of the most common key components of a server *computer system*:
+#### Here are some of the most common key components of a server *computer system*:
   
   CPU:  
 The CPU (central processing unit) is the heart of the server and is responsible for executing instructions and processing data. Servers typically use high-performance CPUs to handle large amounts of requests simultaneously.  
@@ -29,9 +29,9 @@ Servers have a network interface that allows them to communicate with other devi
 
 These are some of the most common key components of a server computer system. The specific components and configurations can vary depending on the type and purpose of the server.
 
-#### _and a_ 
+## _and a_ 
 
-2. program:  
+## 2. program:  
 A server program, on the other hand, is a program that runs on a server computer system and provides specific services or resources to clients over a network. For example, a web server is a program that listens for incoming HTTP requests from clients and returns HTTP responses, while a file server is a program that provides access to files over a network.
 
 In practice, the terms "server computer system" and "server program" are often used interchangeably, as the distinction is not always important. For example, one might say "I have a server running on my computer" to refer both to the computer system and the server program running on it.  
