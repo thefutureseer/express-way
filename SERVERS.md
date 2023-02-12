@@ -101,7 +101,7 @@ Here are some examples of server applications that can be built using Express:
 
 - Web servers are the backbone of the internet, serving up the websites and web applications that people access every day. When you request a website in your web browser, the browser sends a request to the server hosting that website, and the server returns the HTML, CSS, and JavaScript that make up the website's content.  
 
-#### Here are some of the most common HTTP requests that you may encounter when building a server with Express:  
+#### With Express the most common requests from the client to the server you'll handle are HTTP requests. Here are some of the most common HTTP requests that you may encounter:  
 
 
 GET requests: A GET request is used to retrieve information from the server. In the context of a web server, GET requests are often used to retrieve HTML pages, images, and other static resources.  
@@ -119,4 +119,4 @@ DELETE requests: A DELETE request is used to delete a resource on the server.
 HEAD requests: A HEAD request is similar to a GET request, but it only returns the headers of the response, not the body. HEAD requests are often used to retrieve metadata about a resource, such as its size or last-modified date.  
 
 
-These are the most common HTTP requests that you'll encounter when building a server with Express. However, depending on your use case and requirements, you may also need to handle other types of requests, such as PATCH requests or OPTIONS requests.
+..Depending on your use case and requirements, you may also need to handle other types of requests, such as PATCH requests or OPTIONS requests.
