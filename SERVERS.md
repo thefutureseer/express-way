@@ -39,31 +39,47 @@ In practice, the terms "server computer system" and "server program" are often u
 Express is a tool that makes it easier to build and run a server program, while a server computer system is the machine on which the program runs. The server program built using Express runs on a server computer system, providing services or resources to clients over a network.
 
 
-## all servers serve a similar purpose: to provide a service or resources to clients.
+## all servers serve a similar purpose: to provide a service or resources to clients.  
 
-*The most common types of servers* are web servers, database servers, and file servers.
+Express itself does not offer different types of servers, but it provides a set of tools and features that can be used to build a variety of server applications.  
+
+Here are some examples of server applications that can be built using Express:  
+
+1. Web servers: Express makes it easy to implement HTTP servers that serve web pages and web APIs.  
+
+2. RESTful APIs: Express provides a routing system and support for middleware that can be used to implement RESTful APIs.  
+
+3. Static file servers: Express can be used to serve static files, such as images, stylesheets, and JavaScript files.  
+
+4. Proxy servers: Express can be used to implement a reverse proxy server that forwards requests from clients to one or more upstream servers.
+
+5. Real-time applications: Express can be used in combination with real-time technologies such as WebSockets to build real-time applications, such as chat applications and multiplayer games.  
+  
+  These are just a few examples of the types of servers that can be built using Express. The specific type of server you build will depend on your use case and requirements.
+
+
+
+*The most common types of servers* in general are web servers, database servers, and file servers.
 
 1. Web servers: Web servers are the most commonly used type of server on the internet. They serve up websites and web applications, responding to HTTP requests and delivering HTML, CSS, and JavaScript to the client's web browser. Some popular web servers include Apache, Nginx, and Microsoft IIS.
 
 2. Database servers: Database servers are an essential component of many applications and are used to store and manage data. The most common types of database servers are relational database management systems (RDBMS) such as MySQL, PostgreSQL, and Microsoft SQL Server, as well as NoSQL databases like MongoDB and Cassandra.
 
-3. File servers: File servers are used to store and manage file storage, serving files to clients on a network or over the internet. They are commonly used in business and enterprise environments to provide centralized storage and collaboration for teams.
+3. File servers: File servers are used to store and manage file storage, serving files to clients on a network or over the internet. They are commonly used in business and enterprise environments to provide centralized storage and collaboration for teams.  
 
-Application servers: These servers host and run business applications, such as customer relationship management (CRM) systems, enterprise resource planning (ERP) systems, and so on.
+4. Application servers: These servers host and run business applications, such as customer relationship management (CRM) systems, enterprise resource planning (ERP) systems, and so on.  
 
-Email servers: These servers manage the sending and receiving of email messages, providing email services to clients.
+5. Email servers: These servers manage the sending and receiving of email messages, providing email services to clients.  
 
-Proxy servers: These servers act as intermediaries between clients and other servers, providing security, privacy, and optimization services.
+6. Proxy servers: These servers act as intermediaries between clients and other servers, providing security, privacy, and optimization services.  
 
-Print servers: These servers manage printers and print jobs, allowing clients to send print jobs to networked printers.
+7. Print servers: These servers manage printers and print jobs, allowing clients to send print jobs to networked printers.  
 
-Gaming servers: These servers host and manage online multiplayer games, allowing players to connect and play together.
+8. Gaming servers: These servers host and manage online multiplayer games, allowing players to connect and play together.  
 
-FTP servers: These servers provide file transfer services, allowing clients to upload and download files.
-
-
-These types of servers are the most commonly used and are often used in combination to build complex, scalable applications and systems.
-
+9. FTP servers: These servers provide file transfer services, allowing clients to upload and download files.
+  
+  There are many different types of servers, each with a specific purpose and function. These are the most commonly used and are often used in combination to build complex, scalable applications and systems.  
 
 ### The most common response types from a server:
 
@@ -83,6 +99,24 @@ These types of servers are the most commonly used and are often used in combinat
 
 8. Audio and video: The server can return audio and video files in various formats, such as MP3, MP4, and AVI, which can be played in media players like VLC or QuickTime.
 
-- Web servers are the backbone of the internet, serving up the websites and web applications that people access every day. When you request a website in your web browser, the browser sends a request to the server hosting that website, and the server returns the HTML, CSS, and JavaScript that make up the website's content.
+- Web servers are the backbone of the internet, serving up the websites and web applications that people access every day. When you request a website in your web browser, the browser sends a request to the server hosting that website, and the server returns the HTML, CSS, and JavaScript that make up the website's content.  
 
-There are many different types of servers, each with a specific purpose and function, such as database servers, file servers, email servers, and so on. However, at the core, 
+#### Here are some of the most common HTTP requests that you may encounter when building a server with Express:  
+
+
+GET requests: A GET request is used to retrieve information from the server. In the context of a web server, GET requests are often used to retrieve HTML pages, images, and other static resources.  
+
+
+POST requests: A POST request is used to submit data to the server. In the context of a web server, POST requests are often used to submit forms, upload files, or perform other actions that modify server-side data.  
+
+
+PUT requests: A PUT request is used to update an existing resource on the server.  
+
+
+DELETE requests: A DELETE request is used to delete a resource on the server.  
+
+
+HEAD requests: A HEAD request is similar to a GET request, but it only returns the headers of the response, not the body. HEAD requests are often used to retrieve metadata about a resource, such as its size or last-modified date.  
+
+
+These are the most common HTTP requests that you'll encounter when building a server with Express. However, depending on your use case and requirements, you may also need to handle other types of requests, such as PATCH requests or OPTIONS requests.
