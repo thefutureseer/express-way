@@ -17,14 +17,14 @@ Here is an example of how you might use a router in an Express.js application:
 
 //define a route that will handle HTTP GET requests. The first argument to the method is the URL pattern for the route, in this case '/', which represents the root URL. The second argument is a callback function that will be executed when the route is matched.  
 
-    `router.get('/',`  
+    ` router.get('/', 
 
 //The callback function takes two arguments: req and res. req is an object that represents the incoming HTTP request, and res is an object that represents the outgoing HTTP response.  
 
-    `(req, res) => {`  
+    (req, res) => { 
 //the res.send() method to send a simple "Hello, World!" response. When a client makes a GET request to the root URL, the server will match this route, execute the callback function, and send the "Hello, World!" response back to the client.  
-      `res.send('Hello, World!');
-    });`  
+      res.send('Hello, World!');
+    }); `  
 //The app.use() method is used to mount the router object in the main Express.js application, so that it will handle requests to the root URL.  
 
     `app.use('/', router);`  
