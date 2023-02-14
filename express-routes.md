@@ -22,16 +22,14 @@ The callback function takes two arguments: req and res. req is an object that re
      (req, res) => {  
 
 the res.send() method to send a simple "Hello, World!" response. When a client makes a GET request to the root URL, the server will match this route, execute the callback function, and send the "Hello, World!" response back to the client.  
-
-      res.send('Hello, World!');  
-    });  
+      `res.send('Hello, World!');`
+    `});`  
 The app.use() method is used to mount the router object in the main Express.js application, so that it will handle requests to the root URL.  
+    `app.use('/', router);`
 
-    app.use('/', router);  
+The app.listen() method is used to start the HTTP web server and begin handling incoming requests. The first parameter is the port 3000 and the second is a callback function.  
 
-The app.listen() method is used to start the HTTP web server and begin handling incoming requests. The first parameter is the port 3000 and the second is a callback function. 
-//When the server is ready to start accepting requests, the callback function passed to app.listen() will be executed and a message will be logged to the console indicating that the server is listening on port 3000.
-  
-    app.listen(3000, () => {
-      console.log('Example app listening on port 3000!');
-    });
+When the server is ready to start accepting requests, the second parameter which is a callback function passed to app.listen() will be executed and a message will be logged to the console indicating that the server is listening on port 3000.  
+    `app.listen(3000, () => {`
+      `console.log('Example app listening on port 3000!');`
+    `});`
