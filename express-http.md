@@ -1,6 +1,6 @@
 _express.js_: is a popular web application framework for Node.js that provides a set of robust features and tools for building web applications and APIs. Express is built on top of the core Node.js HTTP module and provides an easier and more structured way to handle HTTP requests and responses.  
 
-# HTTP (Hypertext Transfer Protocol) is the foundation of data communication for the World Wide Web. It is a protocol used to send and receive data over the internet. HTTP is a client-server protocol, which means that requests are initiated by the recipient of the request (by the client to the server) and sent to the server. The server then sends back a response to the client.  
+# HTTP (Hypertext Transfer Protocol) is the foundation of data communication for the World Wide Web. It is a protocol used to send and receive data over the internet. HTTP is a client-server protocol, which means that requests are initiated by the recipient of the request ( the client ) and sent to the server. The server then sends back a response to the client.  
   
   ## There are several types of _HTTP requests_ , but the most common ones are:  
 
